@@ -64,3 +64,5 @@ typings/
 *.un~
 
 algo-correct.js
+
+.DS_STORE

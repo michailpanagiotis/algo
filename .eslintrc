@@ -1,0 +1,44 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 8,
+  },
+  "extends": "airbnb",
+  "plugins": [
+    "mocha",
+    "import",
+    "chai-friendly"
+  ],
+  "rules": {
+    "function-paren-newline": "off",
+    "global-require": "off",
+    "arrow-body-style": "warn",
+    "prefer-destructuring": "off",
+    "padded-blocks": "warn",
+    "indent": "warn",
+    "no-multi-spaces": "warn",
+    "object-curly-newline": "off",
+    "object-property-newline": "off",
+    "no-restricted-globals": "warn",
+    "class-methods-use-this": "warn",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-anonymous-default-export": ["error", {
+      "allowArray": false,
+      "allowArrowFunction": false,
+      "allowAnonymousClass": false,
+      "allowAnonymousFunction": false,
+      "allowLiteral": false,
+      "allowObject": false
+    }],
+    "import/no-named-as-default-member": "warn",
+    "import/no-named-as-default": "warn",
+    "import/extensions": [1, "never"],
+    "import/no-unresolved": "warn",
+    "mocha/no-exclusive-tests": "error",
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-expressions": 0,
+    "chai-friendly/no-unused-expressions": 2
+  }
+}
+
